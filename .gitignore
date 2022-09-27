@@ -35,3 +35,12 @@
 *.txt
 *.csv
 *.dat
+
+#Figures
+*.pdf
+
+#Idea directory
+*.idea
+*.xml
+*.iml
+
