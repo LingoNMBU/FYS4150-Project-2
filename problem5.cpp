@@ -61,7 +61,7 @@ int main ()
 
         iterations_N(i) = iterations;              
 
-        std::cout << "Size: " << A2.n_rows << "\n";
+        std::cout << "Size: " << A.n_rows << "\n";
         std::cout << "Number of iterations: " << iterations << "\n";
         std::cout << "Convergence: " << converged << "\n";
         //std::cout << "Max offdiag value: " << max_val << "\n";
