@@ -1,4 +1,5 @@
 #include "functions.hpp"
+#include <assert.h> 
 
 int main () 
 {
@@ -9,6 +10,8 @@ double a, b, max_val, true_max;
 n = 4;
 a = 0.;
 b = 1.;
+k = 0;
+l = 0;
 true_max = 0.7;
 
 A = produce_tridiag(n, a, b, a);
@@ -18,10 +21,6 @@ A(0,3) = 0.5;
 A(2,1) = -0.7;
 A(3,0) = 0.5;
 
-//std::cout << A;
-
-k = 0;
-l = 0;
 max_val = max_offdiag_element_sym(A, k, l);
 
 std::cout << A << std::endl
@@ -30,12 +29,8 @@ std::cout << A << std::endl
           << max_val<< std::endl;
 
 
-if (max_val == true_max){
-    return 0;
-}
-else{
-    return 0;
-}
+//Test
+assert(max_val == 0.7);
 
-
+return 0;
 }
