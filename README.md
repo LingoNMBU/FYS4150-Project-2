@@ -8,7 +8,7 @@ problem2.cpp:
 
 g++ problem2.cpp -o problem2.exe  -larmadillo
 
-comment: The program print the eigenvalues and eigenvectors of the two methods
+comment: The program printa the eigenvalues and eigenvectors of the two methods
 
 
 max_val_test.cpp (problem3):
@@ -22,7 +22,7 @@ problem4.cpp:
 
 g++ problem4.cpp -o problem4.exe -larmadillo
 
-comment: The program print the eigenvalues and eigenvectors of the two trusted method and the jacobi rotation algorithm
+comment: The program prints the eigenvalues and eigenvectors of the two trusted method and the jacobi rotation algorithm
 
 
 problem5.cpp:
